@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Frontend Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop class="video-bg">
+        <source src="img/imagenes/snow-fall.mp4" type="video/mp4">
+    </video>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-left mt-5 pt-5 content">
+        <!-- Sobre mí -->
+        <section id="about">
+            <h1 class="title">Frontend <br> Developer</h1>
+            <p class="text-muted">Hola soy Alejo Julian Cuño,soy un <strong>Desarrollador Frontend Jr.</strong><br>especializado en la creacion de web eficientes y el uso <br>de tecnologías modernas de desarrollo web.</p>
+            
+            <!-- Habilidades con imagenes -->
+            <div class="skills-container">
+                <div class="skill-box"><img src="img/imagenes/html-5.png" alt="HTML"></div>
+                <div class="skill-box"><img src="img/imagenes/css-3.png" alt="CSS"></div>
+                <div class="skill-box"><img src="img/imagenes/js.png" alt="JavaScript"></div>
+                <div class="skill-box"><img src="img/imagenes/bootstrap-logo-shadow.png" alt="Bootstrap"></div>
+                <div class="skill-box"><img src="img/imagenes/science.png" alt="React"></div>
+                <div class="skill-box"><img src="img/imagenes/social.png" alt="Git"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Proyectos -->
+    <section id="projects" class="container mt-5 content">
+        <h2 class="fw-bold text-center">Mis Proyectos</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="container text-center mt-5 content">
+        <h2 class="fw-bold">Contacto</h2>
+        <form class="mt-3">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="tuemail@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    <footer>
+
+
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
