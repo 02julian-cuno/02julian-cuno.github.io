@@ -59,3 +59,64 @@ body, html {
     transform: scale(1.2);
     opacity: 0.8; 
 }
+
+/* Fondo personalizado para las tarjetas de proyecto */
+.project-card {
+    background-color: rgba(128, 128, 128, 0.415) !important; /* Color violeta oscuro */
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.041);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(255, 255, 255, 0.2);
+}
+
+/* Imágenes dentro de las tarjetas */
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Cuerpo de las tarjetas */
+.project-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de título y texto */
+.project-card .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.project-card .card-text {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Botones */
+.project-card .btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 8px;
+    font-weight: bold;
+    transition:0.3s ease, color 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background-color: rgba(4, 3, 3, 0.163);
+    color: white;
+}
+
+
